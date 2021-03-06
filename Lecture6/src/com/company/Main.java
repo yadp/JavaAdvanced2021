@@ -6,19 +6,24 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+        int[] arr= new int[9];
+
+
         Connection connection = null;
         try {
              connection= DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/world","root","1234"
+                    "jdbc:mysql://localhost:3306/world","world","dadw"
              );
 
             Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery("select name from country;");
+            ResultSet resultSet = statement.executeQuery("select * from country LIMIT 100;");
 
-            System.out.println(resultSet);
+            System.out.println(resultSet.getMetaData().getColumnCount());
+
 
             while (resultSet.next()){
-                System.out.println(resultSet.getString("name"));
+                System.out.println(resultSet.getString(3));
             }
         } catch (SQLException throwables) {
             throwables.printStackTrace();
