@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>This is a title</title>
+</head>
+<body>
+<a href="/addUser">Add another Student!</a>
+<img th:src="@{/example.png}" />
+<table border="1">
+    <thead>
+    <tr>
+        <th>Student</th>
+        <th>Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="student: ${students}">
+        <td th:text="${student.name}"></td>
+        <td th:text="${student.age}"></td>
+    </tr>
+    </tbody>
+</table>
+
+
+
+</body>
+</html>
