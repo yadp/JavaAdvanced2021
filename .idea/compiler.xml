@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lecture19" />
+        <module name="Lecture8" />
+        <module name="lecture13 (1)" />
+        <module name="lecture15" />
+        <module name="lecture16" />
+        <module name="lecture13" />
+        <module name="lecture11" />
+        <module name="lecture12" />
+        <module name="lecture10" />
+        <module name="lecture-17" />
+        <module name="lecture16 (1)" />
+        <module name="lecture16 (2)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lecture13" options="-parameters" />
+      <module name="lecture13 (1)" options="-parameters" />
+    </option>
+  </component>
+</project>

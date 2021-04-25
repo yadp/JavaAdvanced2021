@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Lecture8/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture10/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture11/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture12/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture13/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture14/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture15/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture16/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture17/lecture-17/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture18/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture19/pom.xml" />
+        <option value="$PROJECT_DIR$/lecture18-2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="openjdk-15" project-jdk-type="JavaSDK" />
+</project>
