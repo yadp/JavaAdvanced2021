@@ -19,6 +19,14 @@ public class Phone {
     @Column
     private Double camera;
 
+    public Charger getCharger() {
+        return charger;
+    }
+
+    public void setCharger(Charger charger) {
+        this.charger = charger;
+    }
+
     @ManyToOne
     private Charger charger;
 

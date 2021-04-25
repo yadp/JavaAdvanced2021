@@ -1,6 +1,6 @@
-package com.example.lecture202;
+package com.example.lecture21;
 
-import com.example.lecture202.model.Phone;
+import com.example.lecture21.model.Phone;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

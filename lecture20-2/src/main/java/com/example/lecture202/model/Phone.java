@@ -1,4 +1,4 @@
-package com.example.lecture202.model;
+package com.example.lecture21.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

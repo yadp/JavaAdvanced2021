@@ -1,7 +1,7 @@
-package com.example.lecture202;
+package com.example.lecture21;
 
 
-import com.example.lecture202.model.Phone;
+import com.example.lecture21.model.Phone;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

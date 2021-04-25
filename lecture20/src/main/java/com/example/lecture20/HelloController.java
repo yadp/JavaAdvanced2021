@@ -12,21 +12,13 @@ public class HelloController {
         if ( id != 1) {
             throw new IllegalArgumentException("No orders");
         } else {
-
             return "order 1";
 
         }//throw new OrderNotFound();
 
     }
 
-    @ResponseStatus(value= HttpStatus.CONFLICT,
-           reason="Data integrity violation")  // 409
-    @ExceptionHandler(IllegalArgumentException.class)
-    public void conflict(Exception ex) {
-        ex.printStackTrace();
-        System.out.println("Test if this is executed");
-        // Nothing to do
-    }
+
 
 
 
